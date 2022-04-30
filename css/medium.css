@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32.5em) {
+
+    header {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        align-items: center;
+        border-radius: .5rem;
+    }
+
+    header img {
+        max-width: 100%;
+        display: block;
+        /* margin: 1rem; */
+        float: left;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        justify-self: center;
+        align-self: center;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        border-radius: .5rem;
+    }
+}
