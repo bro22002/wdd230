@@ -1,0 +1,37 @@
+@media only screen and (min-width: 37.5em) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Horizontal Menu Examples */
+    /* Flex *********************/
+    nav {
+        display: flex;
+    }
+
+    nav a {
+        flex: 1 1 auto;
+    }
+
+    /* Grid *********************/
+    /*  	nav ul {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+	} */
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    nav a:hover {
+        /* 	background-color: #bbb;
+	color: #36454f; */
+        --d: 75%;
+    }
+
+
+    div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
