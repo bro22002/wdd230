@@ -78,6 +78,10 @@ main {
   background-color: #fff;
 }
 
+main img {
+  padding: 0.5rem;
+}
+
 p {
   padding: .5rem;
 }
@@ -96,13 +100,13 @@ caption {
 }
 
 .primary {
-  background-color: #006341;
+  background-color: #005b8c;
   color: #fff;
   padding: .5rem;
 }
 
 .secondary {
-  background-color: #006248;
+  background-color: #ee3967;
   color: #fff;
 }
 
