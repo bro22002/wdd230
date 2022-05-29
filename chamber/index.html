@@ -24,7 +24,7 @@
     <header>
         <div class="logo-box">
             <picture>
-                <img src="images/logo.png" alt="Cape Coast Chamber of Commerce logo">
+                <img src="images/logo.webp" alt="Cape Coast Chamber of Commerce logo">
             </picture>
         </div>
         <section class="headings">
@@ -84,23 +84,60 @@
             <span id="currentDate"></span>
         </div>
     </header>
+    <div id="banner">🤝🏽 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button
+            id="close">❎</button></div>
     <main>
-        <!-- <div class="event">Event</div>
-        <div class="hero">Hero with site name and to action</div>
-        <div class="weather">Weather</div>
-        <div class="join">Join</div>
-        <div class="news">News Release</div>
+        <section class="hero">
+            <h2>Welcome to Cape Coast</h2>
+            <button id="heroBtn">Join the Chamber</button>
+            <picture>
+                <source media="only screen and (min-width: 37.5em)" srcset="images/wdd230-medium.webp">
+                <source media="only screen and (min-width: 60em)" srcset="images/hero.webp">
+                <img src="images/wdd230-small.webp" alt="cape coast">
+            </picture>
+        </section>
+        <section class="event">
+            <h3>Event</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, ad.</p>
+        </section>
+        <section class="weather">
+            <h3>Weather</h3>
+
+            <div>
+                <span id="temp">10</span>&#176;C
+            </div>
+            <div>
+                <span class="windSpeed">Wind Speed</span>: <span id="input">2.5</span> km/h
+            </div>
+            <div id="windChill" class="common">Wind Chill: <span class="" id="output"></span></div>
+        </section>
+        <div class="join">
+            <button id="join">Join Us!</button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+        <section class="news">
+            <h3>News Release</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora aliquam ratione reprehenderit a
+                quibusdam, saepe reiciendis inventore sint repellendus et, architecto, nam illo autem obcaecati
+                doloremque maiores similique itaque nesciunt quasi nisi soluta dolor.</p>
+        </section>
         <div class="sport">
-            <div>Sportlight 1</div>
-            <div>Sportlight 2</div>
-            <div id="sport3">Sportlight 3</div>
-        </div> -->
+            <section>
+                <h3>Sportlight 1</h3>
+            </section>
+            <section>
+                <h3>Sportlight 2</h3>
+            </section>
+            <section id="sport3">
+                <h3>Sportlight 3</h3>
+            </section>
+        </div>
     </main>
     <footer>
         <picture>
-            <img src="images/logo.png" alt="Cape Coast Chamber of Commerce logo">
+            <img src="images/logo.webp" alt="Cape Coast Chamber of Commerce logo">
         </picture>
-        <h3>Cape Coast Chamber of Commerce</h3>
+        <h4>Cape Coast Chamber of Commerce</h4>
         <address>
             <p>
                 N259 KADADWEN 2ND ST
@@ -118,11 +155,11 @@
             </a>
         </div>
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.933789276652!2d-1.2517719859554672!3d5.114373739357442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfddfe58dbb1ef19%3A0xe7c3f754bc89c7b0!2zNcKwMDYnNTQuNCJOIDHCsDE0JzU1LjAiVw!5e0!3m2!1sen!2sgh!4v1652447337793!5m2!1sen!2sgh" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-        </div>
         <p class="bottom">&copy;<span id="year"></span> | Cape Coast Chamber of Commerce | Stephen Richard Brown | WDD
             230 Project | Last Modification: <span id="modify"></span></p>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>

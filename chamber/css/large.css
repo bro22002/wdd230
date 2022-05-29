@@ -3,10 +3,10 @@
     display: flex;
   }
 
-
   h1 {
     font-size: 2rem;
-    position: static;
+    position: absolute;
+    top: 0;
   }
 
   h1 span {
@@ -42,28 +42,35 @@
 
   .dateTracker {
     position: absolute;
-    /* bottom: 0; */
-    right: 300px;
+    right: 0;
+    left: 0;
   }
 
   main {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .event {
-    display: block;
     grid-column: 1;
+    grid-row: 1;
   }
 
   .hero {
     width: 480px;
     height: 410px;
-    grid-column: 2/ span 2;
+    grid-column: 2 / span 2;
     grid-row: 1 / span 2;
   }
 
+  #heroBtn {
+    right: 10px;
+    bottom: 90px;
+  }
+
   .sport {
-    grid-column: 5;
+    display: block;
+    grid-column: 4;
+    grid-row: 1/4;
   }
 
   #sport3 {
@@ -76,6 +83,7 @@
   }
 
   .join {
+    display: block;
     grid-column: 1;
     grid-row: 3;
   }
@@ -90,7 +98,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     position: relative;
-
   }
 
   footer img {
@@ -98,8 +105,8 @@
     top: 20px;
   }
 
-  footer h3 {
-    grid-column: 2/span 2;
+  footer h4 {
+    grid-column: 2 / span 2;
     align-self: self-end;
     justify-self: left;
     padding-bottom: 0;
@@ -108,7 +115,6 @@
 
   footer address {
     grid-column: 2;
-    /* padding: 0; */
   }
 
   footer .address p:nth-child(1) {

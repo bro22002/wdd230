@@ -7,7 +7,6 @@
 body {
   font-family: "Roboto Serif", "Times New Roman", serif;
   font-size: 16px;
-  /* background-color: #f0ffff; */
 }
 
 h1,
@@ -21,20 +20,20 @@ h6 {
 }
 
 header,
-main,
 footer {
-  max-width: 900px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header img {
   width: 80px;
   height: auto;
   position: static;
+  margin-bottom: 40px;
 }
 
 header {
   background-color: #f0ffff;
-  /* color: #fff; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,10 +65,7 @@ h1 {
 }
 
 h1 span {
-  /* position: absolute; */
   display: block;
-  /* top: 41px; */
-  /* left: -1px; */
 }
 
 .social {
@@ -84,7 +80,7 @@ nav button {
 }
 
 nav {
-  background-color: #ee3967;
+  background-color: #c51843;
   /* color: #fff; */
   display: block;
 }
@@ -145,7 +141,30 @@ span {
   border: 1px solid;
   position: absolute;
   bottom: 0;
-  left: 120px;
+  left: 0;
+  right: 0;
+  margin: .5rem;
+  padding: .5rem;
+  background-color: #c51843;
+  color: #fff;
+}
+
+#banner {
+  margin: .5rem auto;
+  border: 1px solid #005b8c;
+  background-color: #005b8c;
+  padding: 1rem;
+  text-align: center;
+  max-width: 900px;
+  color: #fff;
+}
+
+#close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: .5rem;
 }
 
 main {
@@ -154,58 +173,72 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: .5rem;
+  max-width: 900px;
+  text-align: center;
 }
 
-main div {
+main section {
   width: 200px;
   height: 200px;
   border: 1px solid;
-  background-color: #f5eeee;
+  background-color: #005b8c;
+  color: #fff;
 }
 
 .hero {
-  width: 480px;
-  height: 410px;
-  /* grid-column: 1; */
   grid-row: 1;
+  width: 100%;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
 }
 
 .event {
-  grid-column: 1;
   grid-row: 2;
+  width: 100%;
+}
+
+.weather {
+  grid-row: 3;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.news {
+  grid-row: 4;
+  width: 100%;
 }
 
 .sport {
-  /* grid-column: 1; */
   grid-row: 5;
+  width: 100%;
 }
 
-.sport div {
-  display: inline;
+.sport section {
+  display: block;
+  width: 100%;
 }
 
 #sport3 {
   display: none;
 }
 
-.weather {
-  grid-column: 1;
-  grid-row: 3;
-}
 
 .join {
-  grid-column: 1;
-  grid-row: 3;
+  display: none;
+  width: 100%;
+  background-color: #005b8c;
+  color: #fff;
 }
 
-.news {
-  width: 480px;
-  grid-column: 1;
-  grid-row: 4;
+
+.news p {
+  padding: .5rem;
 }
 
 footer {
-  /* display: flex; */
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -227,4 +260,15 @@ footer .address a {
 
 footer address span {
   display: block;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+#heroBtn {
+  position: absolute;
+  right: 10px;
+  bottom: -75px;
 }
