@@ -54,4 +54,34 @@
         grid-column: 2;
         grid-row: 5;
     }
+
+    #content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stats {
+        grid-column: 1/span 2;
+        grid-row: 1;
+      }
+      
+      .population {
+        grid-column: 1;
+        grid-row: 2;
+      }
+      
+      .climate {
+        grid-column: 1;
+        /* grid-row: 3; */
+      }
+      
+      #gallery {
+        grid-column: 2;
+        grid-row: 2 / 7;
+      }
+      
+      #gallery section picture img:hover {
+        width: 320px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+        transition: all 0.2s linear;;
+      }
 }

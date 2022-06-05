@@ -9,6 +9,10 @@ body {
   font-size: 16px;
 }
 
+p {
+  padding: 0.5rem;
+}
+
 h1,
 h2,
 h3,
@@ -271,4 +275,46 @@ button {
   position: absolute;
   right: 10px;
   bottom: -75px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* dicover page css */
+#content {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* max-width: 700px; */
+  /* margin: 0 auto; */
+}
+
+#content section {
+  width: 100%;
+  height: fit-content;
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+
+.stats {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.population {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.climate {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#gallery {
+  grid-column: 1;
+  grid-row: 4 / 7;
 }
