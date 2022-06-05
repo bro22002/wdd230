@@ -62,26 +62,27 @@
     .stats {
         grid-column: 1/span 2;
         grid-row: 1;
-      }
-      
-      .population {
+    }
+
+    .population {
         grid-column: 1;
         grid-row: 2;
-      }
-      
-      .climate {
+    }
+
+    .climate {
         grid-column: 1;
         /* grid-row: 3; */
-      }
-      
-      #gallery {
+    }
+
+    #gallery {
         grid-column: 2;
         grid-row: 2 / 7;
-      }
-      
-      #gallery section picture img:hover {
+    }
+
+    #gallery section picture img:hover {
         width: 320px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
-        transition: all 0.2s linear;;
-      }
+        transition: all 0.2s linear;
+        ;
+    }
 }
