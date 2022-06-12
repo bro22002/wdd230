@@ -85,4 +85,27 @@
         transition: all 0.2s linear;
         ;
     }
+
+    /******************* styles for the join page ****************/
+    form {
+        grid-column: 1/-1;
+    }
+
+    .form-box {
+        flex-direction: row;
+    }
+
+    .form-box label {
+        flex-basis: 9rem;
+    }
+
+    .form-box .btn {
+        margin-left: 9rem;
+    }
+
+    /************************** styles for the thank you page *************************/
+    .card {
+        grid-column: 1/3;
+    }
+
 }

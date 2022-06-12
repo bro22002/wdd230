@@ -140,4 +140,14 @@
     padding: 1rem;
     margin-top: 3rem;
   }
+
+  /******************* styles for the join page ****************/
+  form {
+    grid-column: 2/4;
+  }
+
+  /************************** styles for the thank you page *************************/
+  .card {
+    grid-column: 2/4;
+  }
 }

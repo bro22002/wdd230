@@ -1,5 +1,6 @@
 // select the elements to manipulate (output to)
 const datefield = document.querySelector("#currentDate");
+const timestamp = document.querySelector("#hidden");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
