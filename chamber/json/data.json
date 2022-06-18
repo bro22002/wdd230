@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name": "Hubtel",
+            "address": "CC-098-9573",
+            "phone": "053481463",
+            "website": "https://hubtel.com/",
+            "icon": "https://hubtel.com/wp-content/themes/hubtel/dist/images/logo.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "KFC",
+            "address": "Pedu Junction, Adjacent Goil Filling Station",
+            "phone": "0303959079",
+            "website": "https://www.kfc.com.gh/stores/kfc-cape-coast",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOLb4Gaa9IT1bkCDe6yFsNtKQD7X1BSk0nnw&usqp=CAU",
+            "membership": "Gold"
+        },
+        {
+            "name": "Ankokeen Trading Enterprise",
+            "address": "Aboom Wells Road, Cape Coast",
+            "phone": "054 449 4987",
+            "website": "http://www.ankokeen.com/",
+            "icon": "https://hubtel.com/wp-content/themes/hubtel/dist/images/logo.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Ridge Royal Hotel",
+            "address": "Residential RD, Cape Coast",
+            "phone": "0312003222",
+            "website": "https://ridgeroyalhotel.com.gh/",
+            "icon": "https://ridgeroyalhotel.com.gh/wp-content/uploads/2020/05/logo-white.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Hans Cottage Botel",
+            "address": "355 R82, Cape Coast",
+            "phone": "024 432 2522",
+            "website": "https://hansbotelgh.com/",
+            "icon": "https://hansbotelgh.com/wp-content/uploads/2020/12/hanslogo.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Global Mamas",
+            "address": "CC-098-3256",
+            "phone": "054-432-3833",
+            "website": "https://globalmamas.org/site/batiking-sewing-center-cape-coast/",
+            "icon": "https://globalmamas.org/wp-content/uploads/2021/03/Main_Logo-300x137.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Code Coast",
+            "address": "Adisadel Third St, Cape Coast",
+            "phone": "024 086 5997",
+            "website": "http://www.codecoast.com.gh/",
+            "icon": "https://firebasestorage.googleapis.com/v0/b/code-coast-1562525387986.appspot.com/o/website%2Flogo-web.png?alt=media&token=bf922f27-e7b3-4a86-8193-8e64ab7ca17f",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Hubtel",
+            "address": "4P7W+45P, Cape Coast",
+            "phone": "020 941 1206",
+            "website": "https://cape360.net/",
+            "icon": "https://cape360.net/wp-content/uploads/2021/05/cape360-new-black.jpg",
+            "membership": "NP"
+        },
+        {
+            "name": "Asaase Radio",
+            "address": "Kings way, Cape Coast",
+            "phone": "020 000 9951",
+            "website": "https://asaaseradio.com/#",
+            "icon": "https://asaaseradio.com/wp-content/uploads/2020/05/Asaaseradiologo1-1.png",
+            "membership": "Silver"
+        }
+    ]
+}
