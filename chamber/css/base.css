@@ -459,3 +459,38 @@ label {
 .title {
   color: aliceblue;
 }
+
+/******************************** styles for business directory page ********************************/
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  background-color: #f1f5f8;
+  max-width: 950px;
+}
+
+main .cards img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.cards p {
+  padding: 0;
+}
+
+.cards p {
+  padding-top: .5rem !important;
+}
+
+.cards a {
+  padding: .5rem;
+}
+
+.cards section {
+  background-color: #bed !important;
+  color: #000;
+  padding: 1rem;
+  height: auto !important;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
+  border-radius: .5rem;
+}
