@@ -21,7 +21,7 @@
             "address": "Aboom Wells Road, Cape Coast",
             "phone": "054 449 4987",
             "website": "http://www.ankokeen.com/",
-            "icon": "https://hubtel.com/wp-content/themes/hubtel/dist/images/logo.png",
+            "icon": "https://scontent.facc3-1.fna.fbcdn.net/v/t1.18169-9/12391829_163675533989204_7945151648056729990_n.jpg?stp=dst-jpg_s600x600&_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeGUWY9Ok6W9fRw53_fhOBzTbKDTY2i0fndsoNNjaLR-d4hciZ10-JQOSa5fvuROmYKq32BbHSYf_xVrsA1VQnTS&_nc_ohc=No9AsYRMOf0AX8eOgEQ&_nc_oc=AQlMzYWqrZ9y7b2ipt3fNrpHMxo9rJPzzGwkHWimLLJm7WaKmZNU6QNh-GpGVjWKY-c&_nc_ht=scontent.facc3-1.fna&oh=00_AT-US-sYPytf_RO7XR2GPUclac5aUw77NyWs2Dh-RPt3yA&oe=62D2C21C",
             "membership": "Silver"
         },
         {
@@ -44,7 +44,7 @@
             "name": "Global Mamas",
             "address": "CC-098-3256",
             "phone": "054-432-3833",
-            "website": "https://globalmamas.org/site/batiking-sewing-center-cape-coast/",
+            "website": "https://globalmamas.org/",
             "icon": "https://globalmamas.org/wp-content/uploads/2021/03/Main_Logo-300x137.png",
             "membership": "Bronze"
         },
@@ -57,7 +57,7 @@
             "membership": "Bronze"
         },
         {
-            "name": "Hubtel",
+            "name": "Cape360",
             "address": "4P7W+45P, Cape Coast",
             "phone": "020 941 1206",
             "website": "https://cape360.net/",
@@ -66,10 +66,10 @@
         },
         {
             "name": "Asaase Radio",
-            "address": "Kings way, Cape Coast",
+            "address": "Kingsway, Cape Coast",
             "phone": "020 000 9951",
             "website": "https://asaaseradio.com/#",
-            "icon": "https://asaaseradio.com/wp-content/uploads/2020/05/Asaaseradiologo1-1.png",
+            "icon": "https://asaaseradio.com/wp-content/uploads/2020/05/Asaase-radio-logo-02-01.png",
             "membership": "Silver"
         }
     ]
