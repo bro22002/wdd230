@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --heading-font: 'Acme', sans-serif;
+    --main-font: 'Roboto Slab', serif;
+    --background-color1: #f1f5f8;
+    --background-color: #bed;
+    --font-color: #005b8c;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--background-color1);
+}
+
+header,
+main,
+footer {
+    justify-content: center;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 450px;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--font-color);
+}
+
+main {
+    background-color: var(--background-color);
+    border: 1px solid;
+    border-radius: .5rem;
+    margin: auto 1rem;
+    box-shadow: var(--light-shadow);
+}
+
+figcaption,
+p {
+    padding: 1rem;
+}
+
+footer {
+    color: var(--font-color);
+}
+
+@media only screen and (min-width: 37.5em) {
+    main {
+        margin: 2rem auto;
+    }
+}
