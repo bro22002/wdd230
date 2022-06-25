@@ -92,9 +92,7 @@
     <main>
         <section class="hero">
             <h2>Welcome to Cape Coast</h2>
-            <button id="heroBtn" class="btn">
-                <a href="join.html">Join the Chamber</a>
-            </button>
+            <a href="join.html" id="heroBtn" class="btn">Join the Chamber </a>
             <picture>
                 <source media="only screen and (min-width: 37.5em)" srcset="images/wdd230-medium.webp" />
                 <source media="only screen and (min-width: 60em)" srcset="images/hero.webp" />
@@ -103,26 +101,23 @@
         </section>
         <section class="event">
             <h3>Event</h3>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, ad.
-            </p>
         </section>
         <section class="weather">
             <h3>Weather</h3>
+            <figure>
+                <img src="" alt="image" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
 
-            <div><span id="temp">10</span>&#176;C</div>
-            <div>
-                <span class="windSpeed">Wind Speed</span>:
-                <span id="input">2.5</span> km/h
-            </div>
-            <div id="windChill" class="common">
-                Wind Chill: <span class="" id="output"></span>
-            </div>
+            <p><span id="temp">10</span>&#176;C</p>
+            <div></div>
+            <span class="windSpeed">Wind Speed:</span>
+            <span id="input">2.5km/h</span>
+            <p id="windChill" class="common">Wind Chill:</p>
+            <span class="" id="output"></span>
         </section>
         <div class="join">
-            <button id="join" class="btn">
-                <a href="join.html">Join Us!</a>
-            </button>
+            <a href="join.html" id="join" class="btn">Join Us! </a>
             <p>
                 Discover how to join the chamber of commerce and how it will benefit
                 your organization!
@@ -138,14 +133,27 @@
             </p>
         </section>
         <div class="sport">
-            <section>
+            <section id="sport1">
                 <h3>Sportlight 1</h3>
+                <p>
+                    Lorem ipsum dolor sit aing elit. Accusantium expedita a, iste ex
+                    doloremque commodi doloribus delectus suscipit elimagni.
+                </p>
             </section>
-            <section>
+            <section id="sport2">
                 <h3>Sportlight 2</h3>
+                <p>
+                    Lorem ipsum dolor sit amet conseicing elit. Accusantium expedita a,
+                    iste ex doloremque commodi doloribus delectus suscipit eligendat
+                    magni.
+                </p>
             </section>
             <section id="sport3">
                 <h3>Sportlight 3</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetste ex doloremque commodi
+                    doloribus delectus suscipit eligen magni.
+                </p>
             </section>
         </div>
     </main>
@@ -176,7 +184,9 @@
         </p>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/weatherapi.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/spotlight.js"></script>
 </body>
 
 </html>

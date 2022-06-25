@@ -1,7 +1,7 @@
 const url = "json/data.json";
 // const cards = document.querySelect('.cards');
 
-async function getBusiness() {
+async function displayBusiness() {
     const response = await fetch(url);
 
     if (response.ok) {
@@ -44,4 +44,4 @@ function displayBusinesses(business) {
     });
 }
 
-getBusiness();
+displayBusiness();
