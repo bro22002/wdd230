@@ -23,10 +23,6 @@
 
 <body>
     <header>
-        <div id="banner">
-            🤝🏽 Come join us for the chamber meet and greet Wednesday at 7:00
-            p.m.<button id="close">❎</button>
-        </div>
         <div class="logo-box">
             <picture>
                 <img src="images/logo.webp" alt="Cape Coast Chamber of Commerce logo" />
@@ -36,59 +32,42 @@
             <h1>Cape Coast <span>Chamber of Commerce</span></h1>
         </section>
         <nav>
+            <button id="hamburgerBtn" onclick="myFunction()">☰
+            </button>
             <div class="navigation">
                 <a href="index.html">Home</a>
                 <a href="discover.html">Discovery</a>
                 <a href="directory.html">Directory</a>
                 <a href="join.html">Join</a>
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
         </nav>
         <div class="social">
-            <a href="https://www.facebook.com" target="_blank"><svg enable-background="new 0 0 32 32" height="32px"
-                    id="Layer_1" viewBox="0 0 32 32" width="32px" xml:space="preserve"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g>
+            <a href="https://www.facebook.com" target="_blank"><span>facebook</span><svg height="32px"
+                      width="32px">
                         <circle clip-rule="evenodd" cx="16" cy="16" fill="#3B5998" fill-rule="evenodd" r="16" />
                         <path
                             d="M22,32V20h4l1-5h-5v-2c0-2,1.002-3,3-3h2V5c-1,0-2.24,0-4,0c-3.675,0-6,2.881-6,7v3h-4v5h4v12H22   z"
                             fill="#FFFFFF" id="f_2_" />
-                    </g>
-                    <g />
-                    <g />
-                    <g />
-                    <g />
-                    <g />
-                    <g />
                 </svg></a>
-            <a href="https://www.linkedin.com/in/brown26/" target="_blank"><svg enable-background="new 0 0 32 32"
-                    height="32px" id="Layer_2" viewBox="0 0 32 32" width="32px" xml:space="preserve"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g>
+            <a href="https://www.linkedin.com/in/brown26/" target="_blank"><span>linkedin</span><svg
+                    height="32px" id="Layer_2" width="32px">
                         <circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd" r="16" />
-                        <g>
                             <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
                             <path
                                 d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z"
                                 fill="#FFFFFF" />
                             <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
-                        </g>
-                    </g>
-                    <g />
-                    <g />
-                    <g />
-                    <g />
-                    <g />
-                    <g />
                 </svg></a>
         </div>
         <div class="dateTracker">
             <span id="currentDate"></span>
         </div>
     </header>
+    <div id="banner">
+        🤝🏽 Come join us for the chamber meet and greet Wednesday at 7:00
+        p.m.<button id="close">❎</button>
+    </div>
     <main id="join">
         <form action="thankyou.html" method="get">
             <div class="form-box">
@@ -130,13 +109,48 @@
             </div>
             <div class="form-box">
                 <label for="description">Business Description:</label>
-                <textarea name="business" id="description" cols="30" rows="10"></textarea>
+                <textarea name="business" id="description" cols="30" rows="5"></textarea>
             </div>
             <input id="hidden" type="hidden" name="submission_date" />
             <div class="form-box">
                 <input type="submit" value="Submit" class="btn" />
             </div>
         </form>
+        <section>
+            <h2>Membership Benefits</h2>
+            <section>
+                <h3>NP Membership</h3>
+                <p>NP membership is a free membership for individuals and non-profit organizations. There is no fee to pay.</p>
+            </section>
+            <section>
+                <h3>Bronze Membership</h3>
+                <p><strong>GH 3000 (Annual Investment)</strong></p>
+                <ul>
+                    <li>Free postings on the Chamber Job Zone.</li>
+                    <li>Join leads and business development groups as well as other Chamber councils and committees.</li>
+                    <li>Weekly updates where we share information about new chamber programs, initiatives, festivals, networking events and advocacy efforts.</li>
+                    <li>Access to free and confidential business counseling.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Silver Membership</h3>
+                <p><strong>GH6000 (Annual Investment)</strong></p>
+                <ul>
+                    <li>Include all benefits of Bronze Membership.</li>
+                    <li>Premier Ribbon Cutting: Photos, video, social media & email promotion to 5,000 member contacts.</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section>
+                <h3>Gold Membership</h3>
+                <p><strong>GH10000</strong></p>
+                <ul>
+                    <li>Include all benefits of the Bronze and Silver Membership.</li>
+                    <li>For more information about our Gold Membership please contact <a href="mailto:info@capecoastchambers.com">info@capecoastchambers.com</a></li>
+                </ul>
+            </section>
+        </section>
     </main>
     <footer>
         <picture>

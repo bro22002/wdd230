@@ -25,6 +25,7 @@ function myFunction() {
 		x.style.display = "block";
 	}
 }
+
 const banner = document.querySelector('#banner');
 if (now.getDay() === 1 || now.getDay() === 2) {
 	banner.style.display = "block";

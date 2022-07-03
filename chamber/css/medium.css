@@ -16,6 +16,7 @@
 
     main {
         grid-template-columns: 1fr 1fr;
+        gap: 0;
     }
 
     .hero {
@@ -25,7 +26,7 @@
 
     #heroBtn {
         right: 20px;
-        bottom: -200px;
+        bottom: 10px;
     }
 
     .news {
@@ -41,7 +42,7 @@
     }
 
     .join {
-        display: block;
+        display: grid !important;
         grid-column: 1/span2;
         grid-row: 4;
     }
@@ -55,8 +56,49 @@
         grid-row: 5;
     }
 
-    #content {
-        grid-template-columns: 1fr 1fr;
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: relative;
+    }
+
+    footer img {
+        padding: .5rem;
+    }
+
+    footer h4 {
+        grid-column: 2 / span 2;
+        justify-self: left;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    footer address {
+        grid-column: 2;
+        position: absolute;
+        top: 30px;
+        left: 0;
+    }
+
+    footer .address p:nth-child(1) {
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+
+    footer .address p:nth-child(2) {
+        padding-top: 0;
+    }
+
+    footer .address {
+        grid-column: 4;
+        grid-row: 1;
+        position: absolute;
+    }
+
+    footer .bottom {
+        grid-column: 1/-1;
+        grid-row: 3;
+        padding: .5rem;
     }
 
     .stats {
@@ -71,7 +113,6 @@
 
     .climate {
         grid-column: 1;
-        /* grid-row: 3; */
     }
 
     #gallery {
@@ -109,8 +150,6 @@
     }
 
     /******************************** styles for business directory page ********************************/
-    .cards {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+
 
 }

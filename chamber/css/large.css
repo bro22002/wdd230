@@ -48,6 +48,7 @@
 
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .5rem;
   }
 
   .event {
@@ -56,15 +57,12 @@
   }
 
   .hero {
-    width: 480px;
-    height: 410px;
     grid-column: 2 / span 2;
     grid-row: 1 / span 2;
   }
 
   #heroBtn {
     right: 10px;
-    bottom: 90px;
   }
 
   .sport {
@@ -83,7 +81,7 @@
   }
 
   .join {
-    display: block;
+    display: block !important;
     grid-column: 1;
     grid-row: 3;
   }
@@ -94,51 +92,8 @@
     grid-row: 3;
   }
 
-  footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    position: relative;
-  }
-
-  footer img {
-    position: absolute;
-    top: 20px;
-  }
-
-  footer h4 {
-    grid-column: 2 / span 2;
-    align-self: self-end;
-    justify-self: left;
-    padding-bottom: 0;
-    margin-top: 20px;
-  }
-
-  footer address {
-    grid-column: 2;
-  }
-
-  footer .address p:nth-child(1) {
-    padding: 1rem;
-    padding-bottom: 0;
-  }
-
-  footer .address p:nth-child(2) {
-    padding-top: 0;
-  }
-
-  footer .address {
-    grid-column: 4;
-    grid-row: 1;
-    position: absolute;
-    right: 20px;
-    margin-top: 20px;
-  }
-
   footer .bottom {
-    grid-column: 1/-1;
-    grid-row: 3;
-    padding: 1rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   /******************* styles for the join page ****************/
@@ -149,5 +104,26 @@
   /************************** styles for the thank you page *************************/
   .card {
     grid-column: 2/4;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .grid section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .grid section>* {
+    margin: 0.1rem;
+  }
+
+  main .contact {
+    grid-column: 1/-1;
   }
 }
