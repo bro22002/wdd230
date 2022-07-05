@@ -1,7 +1,7 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector('#temp');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.querySelector('#desc');
 const windSpeed = document.querySelector('#input');
 
 const url = "https://api.openweathermap.org/data/2.5/forecast?id=2302357&units=metric&id=524901&appid=6183f18a45c8b68fe516abd5831f3718";
