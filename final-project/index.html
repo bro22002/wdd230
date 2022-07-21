@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Homepage for Temple Inn & Suites WDD230 final project Brigham Young University - Idaho" />
+  <link rel="shortcut icon" href="/final-project/favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Lora&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/medium.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+  <title>Homepage | Temple Inn & Suites | WDD230</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo-box">
+      <picture>
+        <img src="/final-project/images/logo.png" alt="Temple Inn & Suites logo" />
+      </picture>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="images/facebook-logo.svg" width="32" alt="facebook logo" /></a>
+      <a href="https://www.linkedin.com/in/brown26/" target="_blank">
+        <img src="images/linkedIn-logo.svg" width="32" alt="linkedIn logo" />
+      </a>
+    </div>
+    <div class="dateTracker">
+      <span id="currentDate"></span>
+    </div>
+  </header>
+  <nav>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>❌</span></button>
+    <ul id="primaryNav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="temple.html">Temple</a></li>
+      <li><a href="reservation.html">Reservation</a></li>
+      <li><a href="services.html">Services</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="banner">
+      <picture>
+        <img src="images/hotel-lobby.jpg" alt="Temple Inn & Suites lobby" />
+      </picture>
+      <button>Make Reservation</button>
+    </div>
+    <section class="paragraph1">
+      <h1>Temple Inn & Suites</h1>
+      <p>
+        Temple Inn & Suites caters to temple workers, patrons, and their
+        families by providing specialized service and accomodations that meet
+        the needs of those patrons. These hotel accomodations and services are
+        available to anyone willing to abide by the terms and policies
+        outlined by our company.
+      </p>
+    </section>
+    <img class="right-image" src="images/lobby-and-sitting-area.jpg" width="400" alt="sitting area" />
+    <section class="current-weather">
+      <h2>Current Weather</h2>
+      <figure>
+        <img id="currentIcon" src="https://via.placeholder.com/50x50?" alt="current weather image" />
+      </figure>
+      <p id="temp"><span>10</span>&deg;F</p>
+      <p id="desc">cloudy</p>
+      <p>Humidity: <span id="humidity">90</span></p>
+      <p>Windspeed: <span id="windspeed">3</span></p>
+      <p>Windchill: N/A</p>
+    </section>
+    <fieldset class="contact-form">
+      <legend>Contact Us</legend>
+      <form action="index.html" method="get">
+        <div class="form-box">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" /> <br />
+        </div>
+        <div class="form-box">
+          <label for="msg">Message</label>
+          <textarea name="message" id="msg" cols="30" rows="5"></textarea>
+        </div>
+        <div class="form-box">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </fieldset>
+
+    <section class="paragraph2">
+      <img class="left-image" src="images/hotel-lobby-1.jpg" width="400" alt="hotel lobby" />
+      <h2>Temple</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam,
+        similique.
+      </p>
+    </section>
+    <section class="weather-card">
+      <h2>Weather Forecast☁️</h2>
+      <div>
+        <section>
+          <h3 id="day1">Day 1</h3>
+          <figure>
+            <img id="icon1" src="https://via.placeholder.com/50x50?" alt="" />
+          </figure>
+          <p id="temp1"><span>10</span>&deg;F</p>
+          <p id="desc1">cloudy</p>
+          <p>Humidity: <span id="humidity1">90</span></p>
+          <p>Windspeed: <span id="windspeed1">3</span></p>
+        </section>
+        <section>
+          <h3 id="day2">Day 2</h3>
+          <figure>
+            <img id="icon2" src="https://via.placeholder.com/50x50?" alt="" />
+          </figure>
+          <p id="temp2"><span>10</span>&deg;F</p>
+          <p id="desc2">cloudy</p>
+          <p>Humidity: <span id="humidity2">90</span></p>
+          <p>Windspeed: <span id="windspeed2">3</span></p>
+        </section>
+        <section>
+          <h3 id="day3">Day 3</h3>
+          <figure>
+            <img id="icon3" src="https://via.placeholder.com/50x50?" alt="" />
+          </figure>
+          <p id="temp3"><span>10</span>&deg;F</p>
+          <p id="desc3">cloudy</p>
+          <p>Humidity: <span id="humidity3">90</span></p>
+          <p>Windspeed: <span id="windspeed3">3</span></p>
+        </section>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <picture><img src="images/logo.png" alt="Logo of Temple Inn & Suites" width="200" class="footer-logo"
+          loading="lazy" /></picture>
+    </div>
+    <address>
+      <div>
+        <p>
+          <a href="mailto:info@templeinn.com">📧info@templeinn.com</a>
+        </p>
+        <p>
+          <a href="tel:+123456789">📞(123) 456 789</a>
+        </p>
+      </div>
+      <iframe title="google map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404837028485!2d-77.0977204853233!3d38.98325594948482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sgh!4v1658062972784!5m2!1sen!2sgh"
+        width="200" height="100" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p>
+        4800 Montgomery Ln #300 <br />
+        Bethesda <br />
+        MD 20814
+      </p>
+    </address>
+    <div class="copy">
+      <hr />
+      <p>
+        &copy; <span id="year"></span> | Temple Inn & Suites | Stephen Richard
+        Brown | WDD 230 final Project | Last Update: <span id="modify"></span>
+      </p>
+    </div>
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/weather.js"></script>
+</body>
+
+</html>

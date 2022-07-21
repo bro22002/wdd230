@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="The services page provides the services and amenties in Temple Inn & Suites. WDD230 final project Brigham Young University - Idaho" />
+    <link rel="shortcut icon" href="/final-project/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Lora&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <title>Services & Amenities | Temple Inn & Suites WDD230</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-box">
+            <picture>
+                <img src="/final-project/images/logo.png" alt="Temple Inn & Suites logo" />
+            </picture>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook-logo.svg" width="32" alt="facebook logo" /></a>
+            <a href="https://www.linkedin.com/in/brown26/" target="_blank">
+                <img src="images/linkedIn-logo.svg" width="32" alt="linkedIn logo" />
+            </a>
+        </div>
+        <div class="dateTracker">
+            <span id="currentDate"></span>
+        </div>
+    </header>
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>❌</span></button>
+        <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="banner">
+            <picture>
+                <img src="images/hotel-lobby.jpg" alt="Temple Inn & Suites lobby" />
+            </picture>
+            <button>Make Reservation</button>
+        </div>
+        <div class="services">
+            <h1>Services & Amenities</h1>
+        </div>
+        <picture>
+            <img class="left-image" src="images/breakfast-area.jpg" alt="dining room" width="400" />
+        </picture>
+        <section class="service-1">
+            <h2>Amenities</h2>
+            <ul>
+                <li>Wireless internet connection in public areas</li>
+                <li>Exercise facilities</li>
+                <li>Breakfast</li>
+                <li>Accessible parking spaces</li>
+                <li>Outdoor pool</li>
+                <li>Accessible business center</li>
+            </ul>
+        </section>
+        <section class="service-2">
+            <h2>Full Time Missionary Services</h2>
+            <ul>
+                <li>
+                    Business center that supports family search and ordinance work
+                </li>
+                <li>
+                    Free access to changing rooms and bathroom facilities for temple
+                    patrons who have traveled far and need to change to and from church
+                    clothes
+                </li>
+                <li>
+                    Long term stay accomodations in kithcenette suites for full-time
+                    temple missionaries
+                </li>
+            </ul>
+        </section>
+        <picture>
+            <img class="serviceImage" src="images/business-center.jpg" alt="busines center of Temple Inn & Suites"
+                width="400" />
+        </picture>
+    </main>
+    <footer>
+        <div>
+            <picture><img src="images/logo.png" alt="Logo of Temple Inn & Suites" width="200" class="footer-logo"
+                    loading="lazy" /></picture>
+        </div>
+        <address>
+            <div>
+                <p>
+                    <a href="mailto:info@templeinn.com">📧info@templeinn.com</a>
+                </p>
+                <p>
+                    <a href="tel:+123456789">📞(123) 456 789</a>
+                </p>
+            </div>
+            <iframe title="google map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404837028485!2d-77.0977204853233!3d38.98325594948482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sgh!4v1658062972784!5m2!1sen!2sgh"
+                width="200" height="100" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>
+                4800 Montgomery Ln #300 <br />
+                Bethesda <br />
+                MD 20814
+            </p>
+        </address>
+        <div class="copy">
+            <hr />
+            <p>
+                &copy; <span id="year"></span> | Temple Inn & Suites | Stephen Richard
+                Brown | WDD 230 final Project | Last Update: <span id="modify"></span>
+            </p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

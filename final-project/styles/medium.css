@@ -1,0 +1,73 @@
+@media only screen and (min-width: 37.5em) {
+  header .social {
+    position: unset;
+}
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  main div.banner {
+    display: block;
+    grid-column: 1/-1;
+  }
+
+  .contact-form {
+    display: block;
+  }
+
+  .left-image {
+    width: 400px;
+}
+
+  .weather-card div {
+    flex-direction: row;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+  }
+
+  footer address {
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer iframe {
+    display: block;
+  }
+
+  .list section img {
+    display: block;
+  }
+
+  .form-box {
+    flex-direction: row;
+  }
+
+  .form-box label {
+    flex-basis: 9rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .form-box input,
+  .form-box textarea {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .form-box button {
+    margin-left: 9rem;
+  }
+
+  /**************** temple page styling ******************/
+  .menu {
+    display: block;
+
+  }
+
+}

@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --heading-font: 'Catamaran', Arial, Helvetica, sans-serif;
+    --body-font: 'Lora', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --body-background: #cccc99;
+    --color1: #999966;
+    --header-bg: #b3b380;
+}
+
+body {
+    background-color: var(--body-background);
+    font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+header,
+main,
+nav,
+footer {
+    max-width: 1000px;
+    margin: 1rem auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    background-color: var(--header-bg);
+}
+
+header .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+div.logo-box img {
+    width: 100%;
+    padding: 1rem;
+}
+
+.social a {
+    padding: .5rem;
+}
+
+header div.dateTracker {
+    grid-column: 1/-1;
+    text-align: center;
+    padding: .5rem;
+    background-color: var(--color1);
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav {
+    background-color: #eee;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5)
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+main {
+    display: block;
+    gap: 1rem .5rem;
+}
+
+main div.banner {
+    display: none;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner button {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+}
+
+section.paragraph1 {
+    grid-column: 1/5;
+}
+
+.right-image {
+    grid-column: 5/-1;
+    width: 100%;
+    padding: 1rem;
+}
+
+section.current-weather {
+    grid-column: 1/5;
+}
+
+.contact-form {
+    display: none;
+    grid-column: 5/-1;
+}
+
+section.paragraph2 {
+    grid-column: 1/-1;
+}
+
+.left-image {
+    float: left;
+    padding: 1rem;
+    width: 100%;
+}
+
+.weather-card {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-card h2 {
+    text-align: center;
+}
+
+.weather-card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer {
+    display: block;
+    background-color: var(--color1);
+}
+
+footer address {
+    display: flex;
+}
+
+footer a,
+footer p {
+    padding: .5rem;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer img,
+footer address iframe {
+    padding: .5rem;
+}
+
+footer iframe {
+    display: none;
+}
+
+footer div.copy {
+    grid-column: 1/-1;
+}
+
+.copy p {
+    text-align: center;
+}
+
+/*************************** temples page styling ************************/
+.menu {
+    display: none;
+    grid-column: 1/-1;
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #bbb;
+    text-align: center;
+}
+
+.menu button {
+    padding: 1rem;
+}
+
+main hr {
+    grid-column: 1/-1;
+}
+
+article,
+section {
+    margin: 0.75rem;
+}
+
+section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #ccc;
+}
+
+.grid {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: flex;
+    align-items: center;
+}
+
+.grid section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid section>* {
+    margin: 0.1rem;
+}
+
+.list section {
+    flex-direction: row;
+    justify-content: left;
+}
+
+.list section>* {
+    margin: 0 1rem;
+    text-align: left;
+}
+
+.list section img {
+    display: none;
+    /* smaller viewports only */
+}
+
+section h3 {
+    font-size: 1.5rem;
+}
+
+section a {
+    font-size: 0.9rem;
+}
+
+.grid img {
+    width: 100%;
+    max-height: 200px;
+    /* max-width: 100%; Images are jerks - Seattle */
+}
+
+/******************* Reservation Page styling ***********/
+fieldset {
+    grid-column: 1/5;
+}
+
+form {
+    padding: 1.5rem;
+}
+
+input,
+label,
+textarea {
+    padding: .2rem 1rem;
+    font-size: 1.2rem;
+}
+
+.form-box {
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*************** styling of the services page *******************/
+section ul {
+    padding: 1.5rem;
+}
+
+.services {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.seviceImage, .service-1 {
+    grid-column: 5/-1;
+}
+
+.service-2 {
+    grid-column: 1/5;
+}
+
+section h2 {
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+{
+    "temples": [
+        {
+            "name": "Accra Ghana Temple",
+            "address": "Accra Ghana Temple Complex 57 Independence Ave, North Ridge P.M.B. CT 209, Cantonments, Accra, Ghana",
+            "telephone": "(233) 302-650-123",
+            "email": "N/A",
+            "image": "https://assets.ldscdn.org/87/5d/875db78e8219c9c6f476fd0fd88f444b986a0d0f/accra_ghana_temple_lds.jpeg",
+            "services": [
+                {
+                    "clothing": "No clothing rental available",
+                    "cafeteria": "No cafeteria available",
+                    "housing": "Patron housing available",
+                    "store": "Distribution center nearby"
+                }
+            ],
+            "milestones": [
+                {
+                    "announced": "16 February 1998",
+                    "groundbreaking": "16 November 2001",
+                    "dedicated": "11 January 2004"
+                }
+            ]
+        },
+        {
+            "name": "Los Angeles California Temple",
+            "address": "10777 Santa Monica Blvd Los Angeles CA 90025-4718 United States",
+            "telephone": "(1) 310-474-5569",
+            "email": "N/A",
+            "image": "https://assets.ldscdn.org/7e/97/7e97884e4e5aa4f0f511ede200dd952d887e0e67/los_angeles_temple_lds.jpg",
+            "services": [
+                {
+                    "clothing": "Clothing rental available",
+                    "cafeteria": "No cafeteria available",
+                    "housing": "Patron housing available",
+                    "store": "Distribution center nearby"
+                }
+            ],
+            "milestones": [
+                {
+                    "announced": "6 March 1937",
+                    "groundbreaking": "22 September 1951",
+                    "dedicated": "11 March 1956"
+                }
+            ]
+        },
+        {
+            "name": "Salt Lake Temple",
+            "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
+            "telephone": "N/A",
+            "email": "N/A",
+            "image": "https://assets.ldscdn.org/cc/dc/ccdce513b921520a0740a60b5f349759a269eceb142197/salt_lake_temple_lds.jpeg",
+            "services": [
+                {
+                    "clothing": "Clothing rental available",
+                    "cafeteria": "No cafeteria available",
+                    "housing": "Patron housing available",
+                    "store": "Distribution center nearby"
+                }
+            ],
+            "milestones": [
+                {
+                    "announced": "28 July 1847",
+                    "groundbreaking": "14 February 1853",
+                    "dedicated": "6 April 1893"
+                }
+            ]
+        },
+        {
+            "name": "Abidjan Ivory Coast Temple",
+            "address": "Cocody Abidjan Ivory Coast",
+            "telephone": "N/A",
+            "email": "N/A",
+            "image": "https://assets.ldscdn.org/7f/a0/7fa087c304703b26ff57f08a01b138607d7d615c1118834/rendering_abidjan_ivory_coast_temple.jpeg",
+            "services": [
+                {
+                    "clothing": "No clothing rental available",
+                    "cafeteria": "No cafeteria available",
+                    "housing": "No patron housing available",
+                    "store": "No distribution center nearby"
+                }
+            ],
+            "milestones": [
+                {
+                    "announced": "5 April 2015",
+                    "groundbreaking": "8 November 2018",
+                    "dedicated": "N/A"
+                }
+            ]
+        }
+    ]
+}
