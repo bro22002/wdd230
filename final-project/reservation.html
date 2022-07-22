@@ -49,7 +49,7 @@
     <main>
         <div class="banner">
             <picture>
-                <img src="images/hotel-lobby.jpg" alt="Temple Inn & Suites lobby" />
+                <img src="images/standard-king-guest-room.jpg" alt="standard king guest room" loading="lazy"/>
             </picture>
             <button>Make Reservation</button>
         </div>
@@ -58,19 +58,19 @@
             <form action="index.html" method="get">
                 <div class="form-box">
                     <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name" />
+                    <input type="text" name="name" id="name" autofocus required />
                 </div>
                 <div class="form-box">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="email" id="email" required />
                 </div>
                 <div class="form-box">
                     <label for="phone">Phone</label>
-                    <input type="tel" name="phone_number" id="phone" />
+                    <input type="tel" name="phone_number" id="phone" required />
                 </div>
                 <div class="form-box">
                     <label for="date">Date</label>
-                    <input type="date" name="attending_date" id="date" />
+                    <input type="date" name="attending_date" id="date" required />
                 </div>
                 <div class="form-box">
                     <label for="country">Country</label>
@@ -79,7 +79,7 @@
                 <p>Type of Room:</p>
                 <div class="form-box">
                     <label for="room1">Single bedroom</label>
-                    <input type="checkbox" name="room" id="room1" />
+                    <input type="checkbox" name="room" id="room1" checked />
                 </div>
                 <div class="form-box">
                     <label for="room2">Double bedroom</label>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="form-box">
                     <label for="rooms">Number of Rooms</label>
-                    <input type="number" name="number_of_rooms" id="rooms" />
+                    <input type="number" name="number_of_rooms" id="rooms" min="0"/>
                 </div>
                 <div class="form-box">
                     <label for="comment">Comment</label>

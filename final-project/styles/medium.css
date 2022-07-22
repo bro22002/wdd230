@@ -3,6 +3,10 @@
     position: unset;
 }
 
+div.logo-box img {
+  width: 100%;
+}
+
   main {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -69,5 +73,10 @@
     display: block;
 
   }
+
+  .serviceImage {
+    width: 400px;
+    padding: 1rem;
+}
 
 }
